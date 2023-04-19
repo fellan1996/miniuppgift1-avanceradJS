@@ -1,0 +1,23 @@
+{
+  "name": "miniuppgif1-avanceradjs",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "clean": "del-cli ./dist ./.parcel-cache ./docs",
+    "build": "parcel build ./src/index.html --dist-dir docs --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del-cli": "^4.0.1",
+    "parcel": "^2.8.3"
+  },
+  "browserslist": [
+    ">0.5%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "description": ""
+}

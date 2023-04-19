@@ -1,0 +1,48 @@
+body {
+    margin-left: 30px;
+}
+
+img {
+    width: 50px;
+}
+#main-headline {
+    width: 15em;
+}
+
+#name-vs-computer {
+    font-size: 1rem;
+    width: 9rem;
+    margin: 0px;
+}
+
+#player-container {
+    width: 10rem;
+}
+
+#contestants-chose {
+    display: flex;
+}
+#contestants-chose img {
+    width: 50px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+#flexbox-container {
+    display: flex;
+}
+
+#choose-weapon-h3 {
+    font-size: 1rem;
+}
+
+#player-name-form {
+    margin-top: 50px;
+}
+
+#play-again-btn {
+    margin-left: 6.5rem;
+    height: 50px;
+    font-weight: bold;
+    background-color: hsl(330, 100%, 81%);
+}
